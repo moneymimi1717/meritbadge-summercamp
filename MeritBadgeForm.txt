@@ -1,0 +1,153 @@
+<form name="EmailEnrollment"> <!--action="MBForm_Test.py" method="POST"-->
+
+<table border="0" width="40%"><tbody><tr>
+	<td>First Name: <input type="text" name="Firstname"></td>
+	<td>Last Name: <input type="text" name="Lastname"></td>
+	<td>Email Address: <input type="text" name="emailaddress"></td></tr></tbody></table>
+
+	<br>
+<table border="0" width="70%">
+<tbody><tr>
+<td align="left"><strong>First Year Scouts ONLY: (6th period assignment only / First Year Scouts Will Be Placed In The 'Blue Mountain Men' Program For Periods 1-5)</strong>
+</td></tr>
+	<tr><td><table border="1" width="100%"><tbody><tr>
+		<td width="20%"><input type="Radio" name="BMM" value="NoBMM" checked="">Not First Year</td>
+	    <td width="20%"><input type="Radio" name="BMM" value="BMMArt"> Art</td>
+	    <td width="20%"><input type="Radio" name="BMM" value="BMMBasket"> Basketry</td>
+		<td width="20%"><input type="Radio" name="BMM" value="BMMLeather"> Leatherwork</td>
+	    <td width="20%"><input type="Radio" name="BMM" value="BMMMammal"> Mammal Study</td></tr></tbody></table>
+		</td></tr></tbody></table>
+
+
+<br><br>
+
+<table border="0" width="70%"><tbody><tr><td align="left"><strong>All other Scouts:<br>Please Select the MB Classes You Would Like To Attend: (Number top 3 from each period in order of preference)</strong></td></tr>
+	<tr><td>
+	
+	<table border="1" width="100%">
+	<tbody><tr>
+	    <td width="16%">Period 1: (9:00-9:50)</td>
+		<td width="16%">Period 2: (10:00-10:50)</td>
+		<td width="16%">Period 3: (11:00-11:50)</td>
+	    <td width="16%">Period 4: (2:00-2:50)</td>
+		<td width="16%">Period 5: (3:00-3:50)</td>
+	    <td width="16%">Period 6: (4:00-5:00)</td></tr>
+		
+	<tr>
+		<td nowrap="">
+			<input type="text" size="2" maxlength="2" name="p1Archery" value=" "> &nbsp; Archery<br>
+			<input type="text" size="2" maxlength="2" name="p1Basketry" value=" "> &nbsp; Basketry<br>
+			<input type="text" size="2" maxlength="2" name="p1Canoeing" value=" "> &nbsp; Canoeing<br>
+			<input type="text" size="2" maxlength="2" name="p1Cooking" value=" "> &nbsp; Cooking***<br>
+			<input type="text" size="2" maxlength="2" name="p1COPE" value=" "> &nbsp; C.O.P.E. (3hrs)^<br>
+			<input type="text" size="2" maxlength="2" name="p1EmerPrep" value=" "> &nbsp; Emergency Prep<br>
+			<input type="text" size="2" maxlength="2" name="p1EnviroSci" value=" "> &nbsp; Enviro. Science<br>
+			<input type="text" size="2" maxlength="2" name="p1FishMgmt" value=" "> &nbsp; Fish &amp; Wildlife Mgmt.<br>
+			<input type="text" size="2" maxlength="2" name="p1Indian" value=" "> &nbsp; Indian Lore<br>
+			<input type="text" size="2" maxlength="2" name="p1InstructSwim" value=" "> &nbsp; Instructional Swim*<br>
+			<input type="text" size="2" maxlength="2" name="p1Kayaking" value=" "> &nbsp; Kayaking<br>
+			<input type="text" size="2" maxlength="2" name="p1LifeSaving" value=" "> &nbsp; Lifesaving<br>
+			<input type="text" size="2" maxlength="2" name="p1Metalwork" value=" "> &nbsp; Metalwork<br>
+			<input type="text" size="2" maxlength="2" name="p1Pioneering" value=" "> &nbsp; Pioneering<br>
+			<input type="text" size="2" maxlength="2" name="p1Shooting" value=" "> &nbsp; Rifle Shooting<br>
+			<input type="text" size="2" maxlength="2" name="p1Rowing" value=" "> &nbsp; Rowing<br>
+			<input type="text" size="2" maxlength="2" name="p1Swimming" value=" "> &nbsp; Swimming<br>
+			<input type="text" size="2" maxlength="2" name="p1Weather" value=" "> &nbsp; Weather<br></td>
+
+		<td nowrap="">
+			<input type="text" size="2" maxlength="2" name="p2Archery" value=" "> &nbsp; Archery<br>
+			<input type="text" size="2" maxlength="2" name="p2Art" value=" "> &nbsp; Art<br>
+			<input type="text" size="2" maxlength="2" name="p2Canoeing" value=" "> &nbsp; Canoeing<br>
+			<input type="text" size="2" maxlength="2" name="p2Chemistry" value=" "> &nbsp; Chemistry<br>
+			<input type="text" size="2" maxlength="2" name="p2EmerPrep" value=" "> &nbsp; Emergency Prep<br>
+			<input type="text" size="2" maxlength="2" name="p2FirstAid" value=" "> &nbsp; First Aid<br>
+			<input type="text" size="2" maxlength="2" name="p2InstructSwim" value=" "> &nbsp; Instructional Swim*<br>
+			<input type="text" size="2" maxlength="2" name="p2Kayaking" value=" "> &nbsp; Kayaking<br>
+			<input type="text" size="2" maxlength="2" name="p2Leatherwork" value=" "> &nbsp; Leatherwork<br>
+			<input type="text" size="2" maxlength="2" name="p2LifeSaving" value=" "> &nbsp; Lifesaving<br>
+			<input type="text" size="2" maxlength="2" name="p2MammalStudy" value=" "> &nbsp; Mammal Study<br>
+			<input type="text" size="2" maxlength="2" name="p2Metalwork" value=" "> &nbsp; Metalwork<br>
+			<input type="text" size="2" maxlength="2" name="p2Orienteering" value=" "> &nbsp; Orienteering<br>
+			<input type="text" size="2" maxlength="2" name="p2Shooting" value=" "> &nbsp; Rifle Shooting<br>
+			<input type="text" size="2" maxlength="2" name="p2Sailing" value=" "> &nbsp; Sailing (2hrs)**<br>
+			<input type="text" size="2" maxlength="2" name="p2Space" value=" "> &nbsp; Space Exploration<br>
+			<input type="text" size="2" maxlength="2" name="p2Swimming" value=" "> &nbsp; Swimming<br></td>
+
+		<td nowrap="">
+			<input type="text" size="2" maxlength="2" name="p3AdvShooting" value=" "> &nbsp; Adv Shooting^^<br>
+			<input type="text" size="2" maxlength="2" name="p3Archery" value=" "> &nbsp; Archery<br>
+			<input type="text" size="2" maxlength="2" name="p3Canoeing" value=" "> &nbsp; Canoeing<br>
+			<input type="text" size="2" maxlength="2" name="p3Cooking" value=" "> &nbsp; Cooking***<br>
+			<input type="text" size="2" maxlength="2" name="p3EnviroSci" value=" "> &nbsp; Enviro Science<br>
+			<input type="text" size="2" maxlength="2" name="p3InstructSwim" value=" "> &nbsp; Instructional Swim*<br>
+			<input type="text" size="2" maxlength="2" name="p3Leatherwork" value=" "> &nbsp; Leatherwork<br>
+			<input type="text" size="2" maxlength="2" name="p3LifeSaving" value=" "> &nbsp; Lifesaving<br>
+			<input type="text" size="2" maxlength="2" name="p3Metalwork" value=" "> &nbsp; Metalwork<br>
+			<input type="text" size="2" maxlength="2" name="p3Nature" value=" "> &nbsp; Nature<br>
+			<input type="text" size="2" maxlength="2" name="p3Pioneering" value=" "> &nbsp; Pioneering<br>
+			<input type="text" size="2" maxlength="2" name="p3Rowing" value=" "> &nbsp; Rowing<br>
+			<input type="text" size="2" maxlength="2" name="p3Soil" value=" "> &nbsp; Soil &amp; Water Conserv.<br>
+			<input type="text" size="2" maxlength="2" name="p3Space" value=" "> &nbsp; Space Exploration<br>
+			<input type="text" size="2" maxlength="2" name="p3Swimming" value=" "> &nbsp; Swimming<br>
+			<input type="text" size="2" maxlength="2" name="p3WoodCarving" value=" "> &nbsp; Wood Carving<br></td>
+
+		<td nowrap="">
+			<input type="text" size="2" maxlength="2" name="p4AdvAchery" value=" "> &nbsp; Adv Archery^^^<br>
+			<input type="text" size="2" maxlength="2" name="p4Camping" value=" "> &nbsp; Camping<br>
+			<input type="text" size="2" maxlength="2" name="p4Canoeing" value=" "> &nbsp; Canoeing<br>
+			<input type="text" size="2" maxlength="2" name="p4Chemistry" value=" "> &nbsp; Chemistry<br>
+			<input type="text" size="2" maxlength="2" name="p4FirstAid" value=" "> &nbsp; First Aid<br>
+			<input type="text" size="2" maxlength="2" name="p4Geology" value=" "> &nbsp; Geology<br>
+			<input type="text" size="2" maxlength="2" name="p4Indian" value=" "> &nbsp; Indian Lore<br>
+			<input type="text" size="2" maxlength="2" name="p4Kayaking" value=" "> &nbsp; Kayaking<br>
+			<input type="text" size="2" maxlength="2" name="p4Leatherwork" value=" "> &nbsp; Leatherwork<br>
+			<input type="text" size="2" maxlength="2" name="p4LeaveNoTrace" value=" "> &nbsp; Leave No Trace*<br>
+			<input type="text" size="2" maxlength="2" name="p4Medicine" value=" "> &nbsp; Medicine<br>
+			<input type="text" size="2" maxlength="2" name="p4Reptile" value=" "> &nbsp; Reptile/Amphib<br>
+			<input type="text" size="2" maxlength="2" name="p4Sailing" value=" "> &nbsp; Sailing (2hrs)**<br></td>			
+
+		<td nowrap="">
+			<input type="text" size="2" maxlength="2" name="p5Art" value=" "> &nbsp; Art<br>
+			<input type="text" size="2" maxlength="2" name="p5Canoeing" value=" "> &nbsp; Canoeing<br>
+			<input type="text" size="2" maxlength="2" name="p5Climbing" value=" "> &nbsp; Climbing (2hrs)**<br>
+			<input type="text" size="2" maxlength="2" name="p5Electronics" value=" "> &nbsp; Electronics<br>
+			<input type="text" size="2" maxlength="2" name="p5EmerPrep" value=" "> &nbsp; Emergency Prep<br>
+			<input type="text" size="2" maxlength="2" name="p5EnviroSci" value=" "> &nbsp; Enviro Science<br>
+			<input type="text" size="2" maxlength="2" name="p5FirstAid" value=" "> &nbsp; First Aid<br>
+			<input type="text" size="2" maxlength="2" name="p5Geocaching" value=" "> &nbsp; Geocaching<br>
+			<input type="text" size="2" maxlength="2" name="p5Nature" value=" "> &nbsp; Nature<br>
+			<input type="text" size="2" maxlength="2" name="p5Oceanography" value=" "> &nbsp; Oceanography<br>
+			<input type="text" size="2" maxlength="2" name="p5Rowing" value=" "> &nbsp; Rowing<br>
+			<input type="text" size="2" maxlength="2" name="p5Sculpture" value=" "> &nbsp; Sculpture<br>
+			<input type="text" size="2" maxlength="2" name="p5Shotgun" value=" "> &nbsp; Shotgun (2hrs)***<br></td>			
+
+		<td nowrap="">
+			<input type="text" size="2" maxlength="2" name="p6Astronomy" value=" "> &nbsp; Astronomy<br>
+			<input type="text" size="2" maxlength="2" name="p6Camping" value=" "> &nbsp; Camping<br>
+			<input type="text" size="2" maxlength="2" name="p6Energy" value=" "> &nbsp; Energy<br>
+			<input type="text" size="2" maxlength="2" name="p6Forestry" value=" "> &nbsp; Forestry<br>
+			<input type="text" size="2" maxlength="2" name="p6MileSwim" value=" "> &nbsp; Mile Swim*<br>
+			<input type="text" size="2" maxlength="2" name="p6Salesmanship" value=" "> &nbsp; Salesmanship<br>
+			<input type="text" size="2" maxlength="2" name="p6Signs" value=" "> &nbsp; Signs,Signals,Codes<br>
+			<input type="text" size="2" maxlength="2" name="p6Wilderness" value=" "> &nbsp; Wilderness Survival<br></td>			
+		</tr>
+		
+	</tbody></table>
+		
+	</td></tr></tbody></table>
+<br>
+<table border="0" width="70%">
+<tbody><tr><td><strong>NOTES:</strong></td></tr>
+<tr><td><strong>^COPE: </strong> Runs until noon.  Do not Schedule any other activities from 9am-12pm. Must be 14+.  Not a Merit Badge.</td></tr>
+<tr><td><strong>^^Adv Shooting: </strong>Must have earned both Rifle and Shotgun MB prior to camp. Not a Merit Badge.</td></tr>
+<tr><td><strong>^^^Adv Archery: </strong>Must have earned Archery MB prior to camp. Not a Merit Badge.</td></tr>
+<tr><td><strong>*Instructional Swim, Leave No Trace, &amp; Mile Swim: </strong>Open to Scouts and Leaders.  Not a Merit Badge.</td></tr>
+<tr><td><strong>**Climbing, Sailing, &amp; Shotgun: </strong>Classes are 2 hrs each.  Scouts signed up won't be able to take another class during the time conflict.</td></tr>
+<tr><td><strong>***Cooking: </strong>1st period starts at 8 and goes through breakfast. 3rd period entends into lunch.</td></tr>
+</tbody></table>
+
+	
+	<br><br>
+	<input type="Submit" value="Submit">&nbsp;&nbsp;&nbsp;
+	<input type="reset" value="Reset">
+</form>
